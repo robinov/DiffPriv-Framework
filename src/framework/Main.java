@@ -503,18 +503,11 @@ public class Main {
 
 	
 	public static void main(String[] args) {
-		//runGLC("testlabels");
 		long start = System.nanoTime();
 		run();
 		long end = System.nanoTime();
 		long duration = end - start;
 		System.out.println("Execution took " + (double) TimeUnit.NANOSECONDS.toSeconds(duration) + " seconds");
-		//testCF();
-		//testDTC();
-		//research();
-		//extract_labels(true);
-		//extractLabelsToFile("synthetic-n10000-e50000-m50-l30");
-
 		System.exit(1);
 	}
 }
